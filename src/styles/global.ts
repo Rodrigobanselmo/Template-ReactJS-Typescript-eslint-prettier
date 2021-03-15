@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
       font-size:93.75%; //15px
     }
     @media (max-width:720px) {
-      font-size:87.5%; //14px 
+      font-size:87.5%; //14px
     }
   }
 
@@ -37,19 +37,19 @@ export const GlobalStyle = createGlobalStyle`
       width: 5px;
   }
   * ::-webkit-scrollbar-thumb:hover {
-      background: #ddd; 
+      background: #ddd;
     }
   * ::-webkit-scrollbar-thumb {
-    background: #e2e2e2; 
+    background: #e2e2e2;
     border-radius: 10px;
   }
   * ::-webkit-scrollbar-track {
-      background: #eee; 
+      background: #eee;
 
   }
-  
+
   [disabled] {
     opacity: 0.6;
     cursor: not-allowed;
   }
-`
+`;
